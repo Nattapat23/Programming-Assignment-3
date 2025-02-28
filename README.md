@@ -7,8 +7,8 @@ Infix to postfix
 # input name file or pathname
 
 ex input1.txt
-
 output : 
+
 infix : (5 + 3) * (2 - (8 / 4))
 Valid
 53+284/-*
@@ -117,4 +117,3 @@ Not-Valid
 infix : (((7 + 5) * 2) / (9 - 3)) == ((8 + 4) / 3)
 Not-Valid
 ----------------
-
