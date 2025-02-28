@@ -19,15 +19,22 @@ public class main {
             String readData = inf.nextLine();
             if (checkInfix(readData)&& checkBalance(readData)) {
                 System.out.println("infix : "+readData);
-                System.out.println("Valid");
-                readData = readData.replaceAll("\\s+", "");
-                postfix(readData);
                 System.out.println();
-                System.out.println("----------------");
+                System.out.println("Valid");
+                System.out.println();
+                readData = readData.replaceAll("\\s+", "");
+                System.out.print("Postfix : ");
+                 postfix(readData);
+                System.out.println();
+                System.out.println("________________");
+                System.out.println();
             }else{
                 System.out.println("infix : "+readData);
+                System.out.println();
                 System.out.println("Not-Valid");
-                System.out.println("----------------");
+                System.out.println();
+                System.out.println("________________");
+                System.out.println();
             }
                
         }
